@@ -1,0 +1,15 @@
+@import url('variaveis.css');
+
+#socials{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--socialsBackground);
+    height: 64px;
+    margin-top: auto;
+}
+
+.icon{
+    margin: 12px;
+}

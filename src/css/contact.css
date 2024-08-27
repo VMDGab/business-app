@@ -1,0 +1,60 @@
+@import url('variaveis.css');
+
+#contatoContainer{
+    font-family: var(--Main);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    padding-top: 21px;
+}
+.name{
+    color: var(--corName);
+    font-size: 25px;
+    font-weight: var(--bold);
+    padding-top: 6px;
+}
+.area{
+    color: var(--corArea);
+    font-size: 12.8px;
+    font-weight: var(--regular);
+    padding-top: 6px;
+}
+.site{
+    color: var(--corTexto);
+    font-size: 12.8px;
+    font-weight: var(--regular);
+    padding-top: 6px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--corName);
+    color: var(--corTextoDark);
+    font-family: var(--Main);
+    font-size: var(--medium);
+    font-size: 14px;
+    transition: all .5s ease-in-out;
+}
+.btn:active{
+    transform: scale(.95);
+}
+
+.linkedin{
+    background-color: var(--corLinkedin);
+    color: var(--corName);
+}
+.contactIcon{
+    margin-right: 8px;
+}

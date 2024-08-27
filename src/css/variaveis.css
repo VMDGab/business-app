@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --corTitulo: #F5F5F5;
+    --corTexto: #DCDCDC;
+    --corName: #FFF;
+    --corArea: #F3BF99;
+    --corLinkedin: #5093E2;
+    --corTextoDark : #374151;
+
+    /* --------------- */
+
+    --pageBackground: #23252C;
+    --cardBackground: #1A1B21;
+    --socialsBackground: #161619;
+
+    /* --------------- */
+
+    --Main: "Inter";
+    --bold: 700;
+    --medium: 500;
+    --Regular: 400;
+
+}

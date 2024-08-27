@@ -1,0 +1,22 @@
+@import url('variaveis.css');
+
+#info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 27px;
+    font-family: var(--Main);
+}
+
+.title{
+    color: var(--corTitulo);
+    font-size: 16px;
+    font-weight: var(--bold);
+}
+.text{
+    color: var(--corTexto);
+    font-size: 10.24px;
+    font-weight: var(--regular);
+    line-height: 150%;
+    margin-top: 5px;
+}
