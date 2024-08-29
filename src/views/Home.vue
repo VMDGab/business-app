@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <mode mode="dark"/>
     <div id="card">
       <img src="../assets/User.svg">
       <Contato 
@@ -26,19 +27,24 @@
 
       <Socials />
     </div>
+  
   </div>
 </template>
+<script src="../js/home.js"/> 
+
 <script>
 import Contato from "@/components/contact.vue"
 import Info from "@/components/info.vue"
 import Socials from "@/components/socials.vue"
+import mode from "@/components/darkAndLight.vue"
 
 export default {
   name: "Home",
   components:{
     Contato,
     Info,
-    Socials
+    Socials,
+    mode,
   }
 }
 </script>

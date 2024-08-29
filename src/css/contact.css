@@ -6,10 +6,10 @@
     flex-direction: column;
     width: 80%;
     align-items: center;
-    padding-top: 21px;
+    padding-top: 11px;
 }
 .name{
-    color: var(--corName);
+    color: var(--corTitulo);
     font-size: 25px;
     font-weight: var(--bold);
     padding-top: 6px;
@@ -38,9 +38,9 @@
     justify-content: center;
     width: 115px;
     height: 34px;
-    border: none;
+    border: solid 2px #D1D5DB;
     border-radius: 6px;
-    background-color: var(--corName);
+    background-color: var(--corWhite);
     color: var(--corTextoDark);
     font-family: var(--Main);
     font-size: var(--medium);
@@ -54,6 +54,7 @@
 .linkedin{
     background-color: var(--corLinkedin);
     color: var(--corName);
+    border: none;
 }
 .contactIcon{
     margin-right: 8px;
