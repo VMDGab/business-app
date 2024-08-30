@@ -8,6 +8,7 @@
     background-color: var(--socialsBackground);
     height: 64px;
     margin-top: auto;
+    transition: all .5s ease-in-out;
 }
 
 .icon{

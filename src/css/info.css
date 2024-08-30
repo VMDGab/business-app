@@ -12,6 +12,7 @@
     color: var(--corTitulo);
     font-size: 16px;
     font-weight: var(--bold);
+    transition: all .5s ease-in-out;
 }
 .text{
     color: var(--corTexto);
@@ -19,4 +20,5 @@
     font-weight: var(--regular);
     line-height: 150%;
     margin-top: 5px;
+    transition: all .5s ease-in-out;
 }

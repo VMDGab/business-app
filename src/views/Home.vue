@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <mode mode="dark"/>
+    <themeSwitcher/>
     <div id="card">
       <img src="../assets/User.svg">
       <Contato 
@@ -36,7 +36,7 @@
 import Contato from "@/components/contact.vue"
 import Info from "@/components/info.vue"
 import Socials from "@/components/socials.vue"
-import mode from "@/components/darkAndLight.vue"
+import themeSwitcher from "@/components/darkAndLight.vue"
 
 export default {
   name: "Home",
@@ -44,7 +44,7 @@ export default {
     Contato,
     Info,
     Socials,
-    mode,
+    themeSwitcher,
   }
 }
 </script>

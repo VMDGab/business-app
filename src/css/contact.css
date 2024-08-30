@@ -13,18 +13,21 @@
     font-size: 25px;
     font-weight: var(--bold);
     padding-top: 6px;
+    transition: all .5s ease-in-out;
 }
 .area{
     color: var(--corArea);
     font-size: 12.8px;
     font-weight: var(--regular);
     padding-top: 6px;
+    transition: all .5s ease-in-out;
 }
 .site{
     color: var(--corTexto);
     font-size: 12.8px;
     font-weight: var(--regular);
     padding-top: 6px;
+    transition: all .5s ease-in-out;
 }
 .links{
     display: flex;

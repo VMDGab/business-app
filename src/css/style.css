@@ -22,5 +22,6 @@ font-family: var(--Main);
   align-items: center;
   border-radius: 10px;
   box-shadow:0 4px 4px #00000048 ;
+  transition: all .5s ease-in-out;
 }
 
